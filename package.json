@@ -1,0 +1,9 @@
+{
+  "name": "foobar",
+  "devDependencies": {
+    "jest-cli": "^0.1.15"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
