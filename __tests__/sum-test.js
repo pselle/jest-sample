@@ -8,7 +8,7 @@ describe('sum', function() {
     expect(sum(1, 2)).toBe(3);
   });
 
-  it('mocks thing?', function() {
+  it('mocks the thing dependency', function() {
     var thing = require('../thing.js');
     expect(thing()).toBe(undefined);
   });
