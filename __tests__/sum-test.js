@@ -18,4 +18,9 @@ describe('sum', function() {
     var thing = require('../thing.js');
     expect(thing()).toBe(2);
   });
+
+  it('mocks it only in the scope of the argument (this fails)', function() {
+    var thing = require('../thing.js');
+    expect(thing()).toBe(undefined);
+  });
 });
